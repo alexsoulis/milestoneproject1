@@ -4,6 +4,9 @@
 	    <meta charset="UTF-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 	    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
 	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
@@ -12,8 +15,8 @@
 	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	    <link rel="stylesheet" type="text/css" href="style.css">
-
-	    <title>Site internet d'Alex Soulis</title>
+       <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	    <title>Alex Soulis's Website</title>
 	</head>
     <body>
     	<div class="container">
@@ -45,55 +48,113 @@
                     		<a class="nav-link" href="#contact">
                     			Contact
                     		</a>
+                    		<li class="nav-item">
+                    		<a class="nav-link" href="index.html">
+                    			English
+                    		</a>
+                  		</li>
+                  		<li class="nav-item">
+                    		<a class="nav-link" href="indexfr.html">
+                    			French
+                    		</a>
+                  		</li>
+                  		<li class="nav-item">
+                    		<a class="nav-link" href="indexes.html">
+                    			Spanish
+                    		</a>
+                  		</li>
                   		</li>
                		</ul>
-   <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Langues
-  </button>
-     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="index.html">English</a>
-    <a class="dropdown-item" href="indexfr.html">French</a>
-    <a class="dropdown-item" href="indexes.html">Spanish</a>
-     </div>
+   
    </div>
    </nav>
    </div>
-<div class="p-3 mb-2 bg-dark">
-<div>
-	<span id="gallery"></span>
-	<h2 >Gallery</h2>
-	<div id="carousel" class="carousel slide" data-ride="carousel">
-		<div class="carousel-inner">
-	  	<div class="carousel-item active">
-			<img class="d-block w-100" src="alexsou.jpg" alt="premiere slide">
-	 	 </div>
-			<div class="carousel-item">
-			<img class="d-block w-100" src="computer.jpg" alt="deuxime slide">
-			</div>
-			<div class="carousel-item">
-			<img class="d-block w-100" src="alexsou.jpg" alt="troisime slide">
-			</div>
-		</div>
-		<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
-		</a>
-		</div>
-	</div>
+   
+<div class="page">
+	  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-12 text-center">
+        <h1 class="text-dark">Alex Soulis Porfolio Website</h1>
+        <p class="lead text-dark">Centric Front End Developement </p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <span id="gallery"></span>
+  <div class="container">
+
+  <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Thumbnail Gallery</h1>
+
+  <hr class="mt-2 mb-5">
+
+  <div class="row text-center text-lg-left">
+
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#gallery" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/pWkk7iiCoDM/400x300" >
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#gallery" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aob0ukAYfuI/400x300" >
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#gallery" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#gallery" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/M185_qYH8vg/400x300" alt="">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#gallery" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/sesveuG_rNo/400x300" alt="">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#gallery" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/AvhMzHwiE_0/400x300">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#gallery" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/2gYsZUmockw/400x300" >
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#gallery" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EMSDtjVHdQ8/400x300" >
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#gallery" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" >
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#gallery" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/G9Rfc1qccH4/400x300" >
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#gallery" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aJeH0KcFkuc/400x300" >
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#gallery" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" >
+          </a>
+    </div>
+  </div>
 </div>
-</div>
-</div>
-</div>
-	<div>
-	<div>
-		<span style="margin-bottom: 50px; display:block;" id="resume">&#8203;</span>
-        <h2 class="center">CV</h2>
-        <h1 class="center" id="resume">CV</h1>
+
+  
+	    <div class="bc">
+        <h2 class="center" id="resume">CV</h2>
          <br>
          <div class="table-responsive-sm table-responsive-md">
          <table class="table table-dark">
@@ -105,8 +166,7 @@
                   <td>HTML courant</td>
                   <td>CSS courant</td>
                   <td>BOOTSTRAP 4 Professionnel</td>
-                  
-                  <td><a href='soulisalexcv.pdf' class='ng-button'>Telecharger</a></td>
+                  <td><a class="btn btn-primary" href="alexsouliscv.pdf" role="button">telecharger</a></td>
                </tr>
             </tbody>
          </table>
@@ -114,47 +174,60 @@
          <h2 class="center" id="aboutme">A Propos</h2>
          <div class="about">
          <p>Je m'appelle Alex Soulis. Je suis un étudiant français et américain vivant à Paris. Je suis étudiant à CodeInstitute pour un diplôme en développement web. J'aimerais travailler au Japon en tant que développeur junior. J'ai beaucoup de centres d'interet, comme jouer à des jeux vidéo, regarder des séries ou passer du temps avec mes amis.De 2014 a 2017 j'ai fait beaucoup de stages. Notamment dans les hotels a Paris et a Dublin. J'ai aussi travaille dans le plus grand hopital d'Europe: Pitie Salpetriere. Dans tous mes emplois, j'ai aide les patients ou les clients pour leur donner les cles de leurs chambres ou bien les aider a se diriger dans l'hopital.</p>         </div>
-      <form>
-         <div class="container">
-         <h1 class="center" id="contact">
-         Contact Form</h1>
-         <div class="row justify-content-center">
-            <div class="col-12 col-md-8 col-lg-6 pb-5">
-               <div class="card border-primary rounded-0">
-                  <div class="card-header p-0">
-                     <div class="bg-info text-white text-center py-2">
-                        <h3><i class="fa fa-envelope"></i> Contactez moi</h3>
-                     </div>
+      <section id="contact">
+       <div class="container">
+           <h2 style="text-align:center">Contact</h2>
+           <div class="row">
+             <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+               <div class="card border-0">
+                  <div class="card-body text-center">
+                    <i class="fa fa-phone fa-5x mb-3" aria-hidden="true"></i>
+                    <h4 class="text-uppercase mb-5">call me</h4>
+                    <p style="color:black;">+33 63491957</p>
                   </div>
-                  <div class="card-body p-3">
-                     <div class="form-group">
-                        <div class="input-group mb-2">
-                           <div class="input-group-prepend">
-                              <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
-                           </div>
-                           <input type="text" class="form-control" id="nombre" name="name" placeholder="name" required>
-                        </div>
-                     </div>
-                     <div class="form-group">
-                        <div class="input-group mb-2">
-                           <div class="input-group-prepend">
-                              <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
-                           </div>
-                           <input type="email" class="form-control" id="name" name="email" placeholder="email@email.com">                                            
-                        </div>
-                     </div>
-                     <div class="form-group">
-                        <div class="input-group mb-2">
-                           <div class="input-group-prepend">
-                              <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
-                           </div>
-                           <textarea class="form-control" placeholder="Send your message" required></textarea>
-                        </div>
-                     </div>
-                     <div class="text-center">
-                        <input type="submit" value="send" class="btn btn-info btn-block rounded-0 py-2">
-                     </div>
+                </div>
+             </div>
+             <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+               <div class="card border-0">
+                  <div class="card-body text-center">
+                    <i class="fa fa-map-marker fa-5x mb-3" aria-hidden="true"></i>
+                    <h4 class="text-uppercase mb-5">office loaction</h4>
+                   <address style="color:black;">14 avenue Daumesnil</address>
                   </div>
-               </div>
-      </form>
+                </div>
+             </div>
+             <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+               <div class="card border-0">
+                  <div class="card-body text-center">
+                    <i class="fa fa-globe fa-5x mb-3" aria-hidden="true"></i>
+                    <h4 class="text-uppercase mb-5">email</h4>
+                    <p style="color:black;">alexsoulispro@outlool.com</p>
+                  </div>
+                </div>
+             </div>
+             <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+               <div class="card border-0">
+                  <div class="card-body text-center">
+                    <i class="fa fa-map-marker fa-5x mb-3" aria-hidden="true"></i>
+                    <h4 class="text-uppercase mb-5">MY School</h4>
+                   <address style="color:black;">CodeInstitute Dublin Irland</address>
+                  </div>
+                </div>
+             </div>
+           </div>
+       </div>
+    </section>
+      
+      <div class="footer">
+      <div class="container">
+          <p style="text-align:center">Coyright Alex Soulis</p>
+              <a href='www.facebook.com'><i class="fa fa-twitch fa-3x fa-fw"></i></a>
+              <a href='www.facebook.com'><i class="fa fa-facebook fa-3x fa-fw"></i></a>
+              <a href='www.twitter.com'><i class="fa fa-twitter fa-3x fa-fw"></i></a>
+              <a href='www.youtube.com'><i class="fa fa-youtube-play fa-3x fa-fw"></i></a>
+              <a href='www.linkdin.com'><i class="fa fa-linkedin fa-3x fa-fw"></i></a>
+            
+      </div>
+      
+     </div>
    </div>
