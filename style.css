@@ -1,4 +1,6 @@
-
+.bc{
+  background-color:rgb(52, 58, 64); 
+}
 nav {
   position: fixed;
 }
@@ -13,6 +15,10 @@ h1 {
 
 h2 {
   margin: 15px 0;
+  color:white;
+}
+h4{
+  color:black;
 }
 
 img {
@@ -27,10 +33,6 @@ img {
   margin-top:20%;
 }
 
-#gallery {
-  margin-top:140px;
-  text-align:center;
-}
 
 .about {
   background-color:rgb(52, 58, 64);
@@ -62,3 +64,68 @@ img {
 .contact{
   width:50%;
 }
+.page{
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 150px;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background-color: #111;
+  text-align: center;
+}
+
+.container{
+  margin-top: 50px;
+  color: #fff;
+  width: 100%;
+}
+
+.fa-twitter {
+    color: #4099FF;
+}
+
+.fa-facebook {
+    color: #3B5998;
+}
+
+.fa-youtube-play {
+    color: #e52d27;
+}
+
+.fa-twitch {
+    color: #6441A5;
+}
+
+.fa-linkedin {
+    color: #007bb6;
+}
+
+
+
+.fa:hover{
+    opacity: 1;
+    transition: 1s;
+    -webkit-transition: 1s;
+    
+#contact .card:hover i,#contact .card:hover h4{
+	color: #87d37c;
+}
+
